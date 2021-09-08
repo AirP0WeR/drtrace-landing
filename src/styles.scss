@@ -7,4 +7,12 @@
 @import './button';
 @import './avatar';
 @import './carousel';
+@import './singin';
 
+
+body {
+    background-image: url(/images/carousel/carousel3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
