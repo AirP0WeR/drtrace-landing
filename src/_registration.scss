@@ -1,53 +1,58 @@
- .form-signin-area h1 {
+.form-registration-area h1 {
     padding-bottom: 60px;
 }
 
-.signin {
+.registration {
     background-image: url(/images/background/registration.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }  
 
-.form-signin {
+.form-registration {
     width: 100%;
     max-width: 400px;
     margin: auto;
     background-color:rgba(255, 255, 255, 0.34);
   }
 
-  .form-signin-area {
+  .form-registration-area {
     padding-top: 80px;
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 80px;
   }
   
-  .form-signin .checkbox {
+  .form-registration .checkbox {
     font-weight: 100;
   }
   
-  .form-signin .form-floating:focus-within {
+  .form-registration .form-floating:focus-within {
     z-index: 2;
   }
   
-  .form-signin input {
+  .form-registration input {
 
     border-radius: 0;
   }
   
-  .form-signin-bottom {
+  .form-registration-bottom {
     background-color: rgba(255, 0, 0, 0.34);
     padding-top: 20px;
     padding-bottom: 20px;
 
   }
 
-  .form-signin-layer {
+  .form-registration-layer {
     background-color:rgba(0, 0, 0, 0.34);
-    margin-top: 60px;
+    padding: 0px;
   }
 
- .main-signin {
-    margin-top: auto;
-    margin-bottom: auto;
- }
+    .form-registration-area button {
+    margin-top: 20px;
+  }
+  
+  .main-registration {
+      margin-top: auto;
+      margin-bottom: auto;
+  }

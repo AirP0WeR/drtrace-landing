@@ -8,11 +8,8 @@
 @import './avatar';
 @import './carousel';
 @import './singin';
+@import './registration';
 
-
-body {
-    background-image: url(/images/carousel/carousel3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+a {
+    text-decoration: none;
 }
