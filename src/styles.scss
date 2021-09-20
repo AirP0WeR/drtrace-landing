@@ -1,8 +1,11 @@
 // Variables
 @import "variables";
 
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
 
 @import './button';
 @import './avatar';
@@ -27,47 +30,69 @@ a {
     position: relative;
 }  
 
-.event-item-box  {
+.hover-button:hover {
+    opacity: 1;
+}
+
+.hover-button {
+    opacity: 0;
+    background-color: rgba(253, 253, 253, 0.5);
+}
+
+
+.event-item-box-bottom  {
     position: absolute;
     top: 75%;
     left: 0;
     bottom: 0;
     right: 0;
-
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
-//   .event-item-bottom {
-//       margin: auto;
+  .event-item-box-top  {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    // background-color: rgba(0, 0, 0, 0.5);
+  }
 
-//   }
+
 
 .event-name {
     border: 3px solid rgb(255, 255, 255);
     width: 80%;
     height: 75%;
     margin: auto;
+    padding: 0;
+
 }
 
-.event-date {
-    font-size: 0.875em;
-}
+// .event-date {
+//     font-size: 0.875em;
+//     padding: 0;
+// }
 
-.event-place {
-    font-size: 0.5em;
-}
+// .event-place {
+//     font-size: 0.5em;
+//     padding: 0;
+
+// }
 
 .event-info-tag {
-    background-color: rgba(255, 255, 255, 0.5);
-    // margin-top: auto;
-    // margin-bottom: auto;
-    height: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: auto;
+    margin-bottom: auto;
+    // height: 33%;
     margin-right: 0;
-
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
 
 }
 
-.event-item-bottom-right {
+.event-item-top-right {
     padding: 0;
+    margin-right: 0;
     font-size: 0.7em;
+
 }
